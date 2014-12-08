@@ -1,6 +1,6 @@
 {
   "name": "check-external-ip",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "A sample Node.js app that helps to cehck external IP address",
   "main": "index.js",
   "scripts": {
