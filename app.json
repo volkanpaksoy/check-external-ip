@@ -1,0 +1,7 @@
+{
+  "name": "check-external-ip",
+  "description": "A sample Node.js app that helps to cehck external IP address",
+  "repository": "https://github.com/volkanx/check-external-ip",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "external ip"]
+}
