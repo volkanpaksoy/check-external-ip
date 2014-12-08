@@ -7,8 +7,11 @@ app.get('/', function (req, res) {
     if (forwardedIp) 
     {
     	remoteAddress = forwardedIp;
-    };
-    remoteAddress = req.connection.remoteAddress;
+    }
+    else
+	{
+    	remoteAddress = req.connection.remoteAddress;
+	}
     res.json({ "ipAddress": remoteAddress });
 });
 
